@@ -5,7 +5,8 @@
   "main": "app.ts",
   "scripts": {
     "test": "jest ",
-    "run": "node app.js"
+    "run": "node app.js",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "max vorabhol",
