@@ -24,7 +24,7 @@ env:
   GKE_CLUSTER: standard-cluster-1
   IMAGE: node-app
   REGISTRY_HOSTNAME: gcr.io
-  DEPLOYMENT_NAME: deployment.v1.apps/nginx-deployment
+  DEPLOYMENT_NAME: nginx
 
 jobs:
   setup-build-publish-deploy:
